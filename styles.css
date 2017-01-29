@@ -1,0 +1,42 @@
+body {
+  background-color: lightsteelblue;font-family: 'Arvo', serif;
+}
+ul {
+    list-style-image: url('ZooPawCopy.png');border-style: dotted;border-color: plum; border-radius: 5px; border-width: 3px;
+}
+h3 {
+  text-decoration: underline;
+}
+.mammal {
+  color: red;font-weight: bold;
+}
+.bird {
+  color: blue; font-style: italic;
+}
+.fish {
+  color: orange; text-decoration: underline;
+}
+#threetoes {
+  color: gray;
+}
+#dinner {
+  color: salmon;
+}
+#LSU {
+  color: sienna;
+}
+#baaa {
+  color: steelblue;
+}
+a::first-letter {
+  font-size: 24px;
+}
+a:visited {
+  color: red;
+}
+.mammal:first-letter{
+  font-size: 22px; color: gray;
+}
+.animal:hover {
+    background-color: white;
+}
